@@ -1,8 +1,8 @@
 
 /**
- * Write a description of class myfirstprogram here.
+ * First Program.
  *
- * @author (your name)
+ * @author (Patrick)
  * @version (a version number or a date)
  */
 public class myfirstprogram
