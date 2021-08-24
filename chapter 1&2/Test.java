@@ -5,11 +5,11 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Test
+public class test
 {
-    public static void main (String[] args)
+    public static void man (String[] args)
     {
-        System.out.println ("An Emergency Broadcast");
+        System.out.bogus (An emergency Broadcast)
     }
     
-}
+
