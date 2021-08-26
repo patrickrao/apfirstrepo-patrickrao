@@ -7,6 +7,7 @@
 //Description
 //Who helped me: Mr. Hayes
 
+//Util is the package. Insi
 import java.util.Random; // lets us use the random class
 //you import the Scanner Class!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 import java.util.Scanner; // last word is the the Class
@@ -60,55 +61,64 @@ public class ch2notes5
                  */
                 String myname = new String("Kevin Hayes");
                 Integer n2 = 7;//Auto Boxing
-        /**/
+        
                 String word = new String("Homer Simpson");
                 String word2 = new String("Homer Simpson");
                 String word3 = new String("Bart Simpson");
-                String name = new String("Mike");
+                String name = new String();
+                //String is special!!! other class/obj can't do this
                 String last = "Hayes";
         
+                System.out.println(word.length());
+                System.out.println("The name is "+name);
         
-        /*
+        
                 System.out.printf("Name:  %s \t ID: %5d \n", name,id);
-                System.out.println( 'a' + 100 );
+                System.out.println('a' + 100 ); //chars are ints
                 System.out.println('a'   );
-                System.out.println("A"+100  );
+                System.out.println("A"+100  ); 
+                System.out.println("The add is :" + 7 + 5);
+                System.out.println(7 + 5 + "is the add");
         
         //      System.out.printf(  );
         
         //      System.out.printf( );
         
-                System.out.println(  );
+        //      System.out.println(  );
         
-            System.out.println( );
-            System.out.println(  );
+         //   System.out.println( );
+         //   System.out.println(  );
         
-        /*
         
+        /**/
                 num1 = 23.89765; num2 = 3.4;
         //Your create a NumberFormat and Decimalformat object
         
-        
-                NumberFormat money = NumberFormat.getCurrencyInstance();
+        /*
+                NumberFormat money = NumberFormat.getCurrencyInstance();//abstraction
                 NumberFormat percent = NumberFormat.getPercentInstance();
-                DecimalFormat fmt =new DecimalFormat("0.###");
+                DecimalFormat fmt = new DecimalFormat("0.###"); //DecimalFormat is a constructor
                 DecimalFormat fmt2= new DecimalFormat("0.00");// ## vs 00
                 
         
                 System.out.println( "Sub Total: " + money.format(num1) );
-                System.out.println( "Sub Total: " + percent.format(num1) );
+                System.out.println( "Sub Total: " + percent.format(.5) );
                 System.out.println( "Sub Total: " + fmt.format(num1) );
                 System.out.println( "Sub Total: " + fmt2.format(num2) );
-        
+                System.out.println( "Sub Total: " + fmt.format(num2) );
+                //.00 pads with 0s
+                System.out.println( "Sub Total: " + fmt2.format(num1) );
+                //\### limits to 3 decimal places    
         
         // page 90 Why do we get this Error???
-        /*
+        /**/
                 System.out.print("Enter a number ");
                 x = Keyboard.nextInt   ();
                 System.out.println(x  );
                 System.out.print("Enter a word ");
                 //word = Keyboard.next   ();
                 word = Keyboard.nextLine   ();
+                System.out.println("The word is" + word);
         
         /*
                 System.out.print("Enter a decimal");
