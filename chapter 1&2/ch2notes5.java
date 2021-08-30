@@ -13,14 +13,12 @@ import java.util.Random; // lets us use the random class
 import java.util.Scanner; // last word is the the Class
 
 
-
 import java.util.*;  // let me use any class in the package
 
 //import java.text.*;
 
 import java.text.NumberFormat;
 import java.text.DecimalFormat;
-
 
 
 public class ch2notes5
@@ -111,7 +109,7 @@ public class ch2notes5
                 //\### limits to 3 decimal places    
         
         // page 90 Why do we get this Error???
-        /**
+        /**/
                 System.out.print("Enter a number ");
                 x = Keyboard.nextInt   ();
                 System.out.println(x  );
@@ -178,7 +176,7 @@ public class ch2notes5
                 
         /*
         
-        /**/
+        /*
         //----------------------------Know it live it love it p 78
                 //word is an oject can do things (NOT len(word))
                 System.out.println(  word.length() );
@@ -188,8 +186,10 @@ public class ch2notes5
                 System.out.println(  word.compareTo(word3 ));// pos after neg before
                 System.out.println(  word3.compareTo(word ));// compares first letter
                 System.out.println(  word.indexOf("p"));
-                
-                
+                System.out.println(  word.substring(word.indexOf("e")));
+                int find = word.indexOf("S");
+                System.out.println(  word.substring(find, find+2));
+                // substring(start, end-1)
         
         
         
@@ -199,8 +199,9 @@ public class ch2notes5
         //System.out.println((int)(letter + letter ) );
         
             //System.out.println( (char)101 );
-        /**/
-        /*        double conversionFactor = (double)x/5; //9/5 logic error -- promotion 5.0
+        /*
+                double conversionFactor = (double)x/5; //9/5 logic error -- promotion 5.0
+                // int divided by int gives integer result
                 System.out.println(conversionFactor);
                 final int BASE = 32;            // cast is (data type)
                 int celsiusTemp = 30;
@@ -209,6 +210,8 @@ public class ch2notes5
         
                 System.out.println("Celsius Temp: " + celsiusTemp );
                 System.out.println("Fahrenheit Equivalent" + fahrenTemp  );
+                
+                System.out.println((int)(Math.random()*100));
         
         /*
             //num = num + num;
