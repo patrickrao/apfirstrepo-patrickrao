@@ -1,8 +1,8 @@
 
 /**
- * Write a description of class CircleSphere here.
+ * This program finds area and circumference of a circle with a given radius
  *
- * @author (your name)
+ * Patrick
  * @version (a version number or a date)
  */
 import java.util.*;
@@ -15,7 +15,7 @@ public class CircleSphere
     
         System.out.print("Input radius for a circle: ");
         int radius = input.nextInt();
-    
+        //Calculating circumference and area
         double pi = Math.PI;
         double circumference = pi * radius * 2;
         double circlearea =  pi * radius * radius;

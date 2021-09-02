@@ -1,8 +1,8 @@
 
 /**
- * Write a description of class HourMinSec here.
+ * This program converts seconds to hr/min/sec
  *
- * @author (your name)
+ * Patrick and Alex
  * @version (a version number or a date)
  */
 
@@ -22,12 +22,12 @@ public class hourMinSec {
         System.out.print("Input seconds: ");
         input = Input.nextInt();
        
-        //calculate Hors, minutes, seconds
+        //calculate Hours, minutes, seconds
         hour = input / 3600;
         min = (input % 3600) / 60;
         sec = input % 60;
        
-        //prints answers
+        
         System.out.println("Hours: " + hour);
         System.out.println("Minutes: " + min);
         System.out.println("Seconds: " + sec);
