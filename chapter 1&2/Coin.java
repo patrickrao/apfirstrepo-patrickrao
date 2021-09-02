@@ -7,6 +7,7 @@
  */
 
 import java.util.*;
+import java.text.DecimalFormat;
 
 public class Coin
 {
@@ -21,8 +22,10 @@ public class Coin
         System.out.print("How many quarters? ");
         double quarters = input.nextInt();
         
+        DecimalFormat fmt = new DecimalFormat("0.##");
+        
         double totalcash = 0.25 * quarters + 0.10 * dimes + 0.05 * nickels + 0.01 * pennies;
-        System.out.println(totalcash);
+        System.out.println(fmt.format(totalcash));
         
         
         
