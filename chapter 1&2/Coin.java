@@ -1,9 +1,9 @@
 
 /**
- * Receives amount of penny/nickel/dime/quarter, then finds the value.
- *
  * Patrick
- * @version (a version number or a date)
+ * 9/7
+ * Coin 
+ * This program produces the total amount of money given number of coins
  */
 
 import java.util.*;

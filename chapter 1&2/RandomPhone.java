@@ -1,9 +1,9 @@
 
 /**
- * This program makes a phone number with certain restrictions
- *
  * Patrick
- * @version (a version number or a date)
+ * 9/7
+ * Random Phone
+ * This program generates a phone number with certain restraints.
  */
 
 import java.util.*;

@@ -1,9 +1,9 @@
 
 /**
- * This program finds area and circumference of a circle with a given radius
- *
  * Patrick
- * @version (a version number or a date)
+ * 9/7
+ * Circle Sphere
+ * This program finds area and circumference of a circle with a given radius
  */
 import java.util.*;
 

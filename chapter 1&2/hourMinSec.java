@@ -1,9 +1,9 @@
 
 /**
- * This program converts seconds to hr/min/sec
- *
  * Patrick and Alex
- * @version (a version number or a date)
+ * 9/7
+ * Hours Minutes Seconds
+ * This program converts seconds to hr/min/sec
  */
 
 import java.util.*;
